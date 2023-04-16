@@ -1,1 +1,1 @@
-0x05. Python - Exceptions ALX HIGHER LEVEL COURSE
+0x05-python-exceptions

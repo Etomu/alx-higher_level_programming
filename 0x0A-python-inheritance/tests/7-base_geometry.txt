@@ -5,23 +5,23 @@ Using ``BaseGeometry``
 -------------------
 
 Importing the function from the module:
-        >>> BG = _import_("7-base_geometry").BaseGeometry
+        >>> BG = __import__("7-base_geometry").BaseGeometry
 
 Checking for module docstring:
-         >>> m = _import("7-base_geometry").__doc_
+         >>> m = __import__("7-base_geometry").__doc__
          >>> len(m) > 1
          True
 
 Checking for class docstring:
-         >>> c = _import("7-base_geometry").BaseGeometry.__doc_
+         >>> c = __import__("7-base_geometry").BaseGeometry.__doc__
          >>> len(c) > 1
          True
 
 Checking for method docstring:
-	 >>> mod1 = _import("7-base_geometry").BaseGeometry.area.__doc_
+	 >>> mod1 = __import__("7-base_geometry").BaseGeometry.area.__doc__
 	 >>> len(mod1) > 1
 	 True
-	 >>> mod2 = _import("7-base_geometry").BaseGeometry.integer_validator.__doc_
+	 >>> mod2 = __import__("7-base_geometry").BaseGeometry.integer_validator.__doc__
          >>> len(mod2) > 1
          True
 
